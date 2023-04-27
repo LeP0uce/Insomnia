@@ -1,0 +1,83 @@
+.Navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  border-radius: 2em;
+}
+.Menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Menu {
+  float: left;
+}
+.Nom {
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+.zoom {
+  width: 2px;
+  height: 2px;
+}
+body {
+  background-color: black;
+}
+.x img {
+  transition: all 1s ease;
+  height: 300px ;
+}
+.x:hover img {
+  transform:scale(1.1) ;
+}
+img {
+  height: 300px;
+  margin-top: 5em;
+  margin-left: 2em;
+  padding: 2em;
+  border-radius: 50em;
+}
+
+.apex img{
+  transition: all 1s ease;
+  height: 650px;
+}
+.apex:hover img {
+  transform: scale(1.1);
+}
+.x .apex .manette {
+  border-radius: 2em;
+}
+.manette img {
+  transition: all 1s ease;
+  height: 450px ;
+}
+.manette:hover img {
+  transform: scale(1.1);
+}
+.lis img {
+  transition: all 1s ease;
+  height: 450px ;
+}
+.lis:hover img {
+  transform: scale(1.1);
+}
+p {
+  color: green ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  float: right;
+  margin-right: 2em;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Connexion</title>
+        <link rel='stylesheet' href="Style/Connexion.css">
+    </head>
+    <body>
+        <ul class=Navbar>
+            <li class=Menu><a href=accueil.html>Accueil</a></li>
+            <li class=Menu><a href=nos_produits.html>Nos produits</a></li>
+            <li class=Menu><a href=connexion.html>Connexion</a></li>
+            <li class=Nom>I̸n̶s̷o̷m̸n̶i̵a̸</li>
+        </ul>
+        <br/>
+        <fieldset>
+            <legend>Connexion</legend>
+            <form name="connexion" action='Profil.php' method='POST'>
+            <label for="identifiant">Identifiant :</label>
+            <p><input type="text" name="identifiant"/></p>
+            <label for="motdepasse">Mot de passe :</label>
+            <p><input id="mdp" type="password" name="motdepasse"/><img id="eye" src="Images/eye.png" onmouseover="document.getElementById('mdp').type = 'text';" onmouseout="document.getElementById('mdp').type = 'password';"></p>
+            <input type="submit" value="Valider"/>
+        </form>
+        </fieldset>
+    </body>
+</html>

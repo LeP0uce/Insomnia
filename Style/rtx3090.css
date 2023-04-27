@@ -1,0 +1,88 @@
+body{
+  background-color: black;
+}
+.grand {
+  float: left;
+  height: 300px;
+  margin-top: 5em;
+  margin-left: 2em;
+  padding: 2em;
+  border-radius: 50em;
+  padding: 2em;
+}
+.Navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  border-radius: 2em;
+}
+.Menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Menu {
+  float: left;
+}
+.Nom {
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+#prix {
+  float: right top;
+  color: green ;
+  margin-right: 2em;
+  margin-top: 3.5em;
+  font-size: 50px;
+}
+h1 {
+  color: aliceblue;
+  margin-left: 1em ;
+}
+.payer {
+  color: white; 
+  margin-left: 25em;
+  margin-top: 5em;
+  font-size: 1.5em;
+}
+.couleur {
+  color: green;
+}
+.acheter {
+  float: right;
+  font-size: 50px;
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 20px;
+  margin-top: 0.5em;
+  margin-right: 1.5em;
+}
+button {
+  background-color: red;
+}
+.euros {
+  margin-left: 285px;
+}
+.mini {
+  border-radius: 2em;
+  height: 80px;
+  padding: 0;
+}
+.imagemini {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+}
+a {
+  color: aliceblue;
+}
